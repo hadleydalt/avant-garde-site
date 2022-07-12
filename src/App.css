@@ -8,12 +8,16 @@
   height: 100vh;
 }
 
-.header {
+.header-top {
   display: flex;
   width: 95vw; 
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+}
+
+.header-top img {
+  -webkit-user-drag: none;
 }
 
 .header-img {
@@ -35,12 +39,12 @@
   padding: 10px;
   width: 8vw;
   height: 7vw;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, .25))
 }
 
 .link-container img {
   width: 6vw;
   height: 5vw;
-  -webkit-user-drag: none;
 }
 
 .link-container t {
