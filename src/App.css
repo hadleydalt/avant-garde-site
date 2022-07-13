@@ -79,7 +79,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center; 
-  width: 18vw;
+  width: 20vw;
   height: 6vh;
 }
 
@@ -96,4 +96,41 @@
   justify-content: center;
   font-style: italic;
   width: 15vw;
+}
+
+.project-top-border {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 8vw;
+}
+
+.project-dotted-line {
+  width: 75%;
+  height: 32px; 
+  border-bottom: 4px dotted black;
+  margin-left: 4px;
+}
+
+.project-content {
+  display: flex; 
+  flex-direction: row; 
+  width: 80%;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 5vh; 
+  margin-left: -13vw;
+}
+
+.project-content img {
+  width: 30%;
+}
+
+.project-content p {
+  width: 50%;
+  margin-left: 3vw;
+}
+
+.spacer {
+  margin-top: 10vh;
 }

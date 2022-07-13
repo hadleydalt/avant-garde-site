@@ -3,6 +3,9 @@ import { ProjectPreview } from './ProjectPreview'
 
 export const ProjectPreviews = () => {
   return (
-      <h1>Project Previews</h1>
+    <>
+        <div className="spacer" />
+        <ProjectPreview imgPath="paint1"/>
+    </>
   )
 }
