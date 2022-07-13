@@ -1,4 +1,4 @@
-.project-page {
+.wrapper {
   padding-top: 5vh;
   display: flex;
   flex-direction: column; 
@@ -129,6 +129,38 @@
 .project-content p {
   width: 50%;
   margin-left: 3vw;
+}
+
+.project-content h1 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.project-content h2 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.project-content a {
+  background: #FF8608;
+  opacity: 0.8;
+  border-radius: 25px;
+  border: 0px;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+}
+
+.project-content t {
+  line-height: 23px;
 }
 
 .spacer {

@@ -17,7 +17,7 @@ export const Link = (props) => {
     <div className="link-container">
       <Draggable>
       <div style={placementStyle}>
-        <img src={require('../graphics/folder.png')} />
+        <img src={require('../graphics/folder.png')} alt=""/>
         <t>{name}</t>
       </div>
       </Draggable>

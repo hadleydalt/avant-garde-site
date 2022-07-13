@@ -1,9 +1,13 @@
 import './App.css';
-import { ProjectPage } from './project-page/ProjectPage'
+import { ProjectPreviews } from './project-page/ProjectPreviews'
+import { Header } from './project-page/Header'
 
 function App() {
   return (
-    <ProjectPage />
+    <div className="wrapper">
+          <Header />
+          <ProjectPreviews />
+      </div>
   )
 }
 

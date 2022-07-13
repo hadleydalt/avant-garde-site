@@ -1,12 +1,17 @@
 import '../App.css'
 import { Scissors } from '../graphics/Scissors'
+import { Tool } from '../graphics/Tool'
 
 export const ProjectPreview = (props) => {
 
     const imgPath = props.imgPath
+    const tags = props.tags
+    const text = props.text
+    const title = props.title
 
   return (
       <>
+      <div className="spacer" />
       <div className="project-top-border">
           <Scissors />
           <div className="project-dotted-line" />
@@ -14,8 +19,18 @@ export const ProjectPreview = (props) => {
       <div className="project-content">
         <img src={require('../graphics/' + imgPath + '.png')} />
         <p>
-          apofkesfklsekdfj IERIDJ kdfjdkf apofkesfklsekdfj kdjfk apofkesfklsekdfj adjfaksdjflkdsjf apofkesfklsekdfj a dkjfkdjf df apofkesfklsekdfj kdfjk dkf a dkf apofkesfklsekdfj
+          <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', width: 'auto'}}>
+        <Tool />
+            <h2>
+            {tags.map((tag, index) => 
+                index === 0 ? tag : " ~ " + tag
+            )}
+            </h2>
+            </div>
+            <h1>{title}</h1>
+          <t>{text}</t>
         </p>
+        <a>Learn more!</a>
     </div>
   </>
   )
