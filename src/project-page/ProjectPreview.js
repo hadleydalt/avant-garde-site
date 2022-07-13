@@ -30,7 +30,10 @@ export const ProjectPreview = (props) => {
             <h1>{title}</h1>
           <t>{text}</t>
         </p>
-        <a>Learn more!</a>
+        <a>
+        <img src={require('../graphics/yellowbrush.png')} alt=""/>
+          <c>Learn more!</c>
+        </a>
     </div>
   </>
   )

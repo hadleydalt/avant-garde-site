@@ -1,5 +1,5 @@
 import '../App.css'
-import { Links } from './Links'
+import { Links } from '../project-page/Links'
 import { Subtext } from './Subtext'
 
 export const Header = () => {

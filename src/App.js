@@ -1,12 +1,12 @@
 import './App.css';
-import { ProjectPreviews } from './project-page/ProjectPreviews'
-import { Header } from './project-page/Header'
+import { Header } from './main/Header'
+import Main from './main/Main'
 
 function App() {
   return (
     <div className="wrapper">
           <Header />
-          <ProjectPreviews />
+          <Main />
       </div>
   )
 }
