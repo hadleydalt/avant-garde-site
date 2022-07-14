@@ -12,7 +12,9 @@ export const FolderLinks = () => {
         <Link to='/about' className="folder-link">
           <FolderLink name="About" />
         </Link>
-        <FolderLink name="Resume" />
+        <Link to='/resume' className="folder-link">
+          <FolderLink name="Resume" />
+        </Link>
       </div>
   )
 }
