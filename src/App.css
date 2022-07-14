@@ -225,3 +225,14 @@
   flex-direction: column;
 }
 
+.resume-download {
+  padding-left: 5vw;
+  padding-right: 5vw; 
+  margin-top: 5vh;
+  background: #00C0C9; 
+  border-radius: 10px;
+  padding: 1vw;
+  color: white;
+  text-transform: uppercase;
+}
+
