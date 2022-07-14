@@ -1,5 +1,5 @@
 import '../App.css'
-import { Links } from '../project-page/Links'
+import { FolderLinks } from '../project-page/FolderLinks'
 import { Subtext } from './Subtext'
 
 export const Header = () => {
@@ -8,7 +8,7 @@ export const Header = () => {
     <div className="header-top">
       <img className="header-img" src={require('../graphics/header.png')} alt=""/>
       <div className="header-line" />
-      <Links />
+      <FolderLinks />
     </div>
     <div className="subtext-wrapper">
       <Subtext color="#FF8608" topText="Student of the" bottomText="Brown | RISD Dual Degree Program" />

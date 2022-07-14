@@ -1,7 +1,7 @@
 import '../App.css'
 import Draggable from 'react-draggable';
 
-export const Link = (props) => {
+export const FolderLink = (props) => {
 
   const name = props.name
 
