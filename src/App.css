@@ -1,4 +1,34 @@
 .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.paint-bg-1 {
+  position: absolute; 
+  width: 100vw;
+  height: 90vh;
+  opacity: 0.4; 
+  transform: rotate(-5deg); 
+  margin-left: -5vw;
+  margin-top: -2vh;
+  filter: grayscale(0.5);
+}
+
+.paint-bg-2 {
+  position: absolute; 
+  width: 90vw;
+  height: 85vh;
+  opacity: 0.2;
+  transform: rotate(-5deg);
+  margin-left: 5vw;
+  margin-top: 2vh;
+  filter: grayscale(0.2);
+}
+
+.content-wrapper {
   padding-top: 5vh;
   display: flex;
   flex-direction: column; 
@@ -6,6 +36,9 @@
   justify-content: flex-start;
   width: 100vw;
   height: 100vh;
+  position: sticky;
+  top: 0;
+  overflow: scroll;
 }
 
 .header-top {
@@ -26,7 +59,7 @@
 
 .header-line {
   width: 55%;
-  background: black;
+  background: rgba(0, 0, 0, 1);
   height: 1.5px; 
   margin-left: -7%;
   margin-top: -3%;
@@ -112,7 +145,7 @@
 .project-dotted-line {
   width: 75%;
   height: 32px; 
-  border-bottom: 4px dotted black;
+  border-bottom: 4px dotted rgba(0, 0, 0, 1);;
   margin-left: 4px;
 }
 
