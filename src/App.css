@@ -1,6 +1,6 @@
 .wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 100vw;
   height: 100vh;
@@ -8,22 +8,22 @@
 
 .paint-bg-1 {
   position: absolute; 
-  width: 100vw;
+  width: 70vw;
   height: 90vh;
   opacity: 0.4; 
   transform: rotate(-5deg); 
-  margin-left: -5vw;
+  margin-left: 5vw;
   margin-top: -2vh;
   filter: grayscale(0.5);
 }
 
 .paint-bg-2 {
   position: absolute; 
-  width: 90vw;
+  width: 70vw;
   height: 85vh;
   opacity: 0.2;
-  transform: rotate(-5deg);
-  margin-left: 5vw;
+  transform: rotate(8deg);
+  margin-left: 10vw;
   margin-top: 2vh;
   filter: grayscale(0.2);
 }
@@ -126,13 +126,22 @@
   display: flex; 
   flex-direction: column; 
   align-items: flex-start;
+  line-height: 3vh;
   justify-content: center;
-  font-style: italic;
-  width: 15vw;
+  width: 16vw;
+  text-transform: uppercase;
+  font-size: 0.7vw;
+  font-weight: bold;
+  letter-spacing: 0.01vw;
 }
 
 .subtext-text b {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
+  opacity: 0.6;
+  font-size: 1.05vw;
+  line-height: 2.5vh;
+  text-transform: none;
+  letter-spacing: -0.03vw;
 }
 
 .project-top-border {
@@ -171,21 +180,22 @@
 .project-content h1 {
   font-size: 30px;
   font-weight: normal;
+  font-family:'Courier New', Courier, monospace;
+  letter-spacing: -0.15vw;
 }
 
 .project-content h2 {
   font-weight: bold;
-  font-style: italic;
   font-size: 15px;
   margin-left: 5px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.01vw;
 }
 
 .project-content a {
-  font-style: italic;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.4vw;
-  letter-spacing: -0.5px;
+  text-transform: uppercase;
+  font-size: 0.8vw;
+  letter-spacing: 0.05vw;
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -196,15 +206,15 @@
 }
 
 .project-content a img {
-  width: 15vw;
-  height: 8vh;
+  opacity: 0.9;
+  width: 12vw;
+  height: 6vh;
 }
 
 .project-content a c {
   position: absolute;
-  margin-left: -12vw;
-  margin-top: 2.5vh;
-  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.5));
+  margin-left: -9.5vw;
+  margin-top: 2vh;
 }
 
 .project-content t {

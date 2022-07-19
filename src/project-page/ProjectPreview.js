@@ -23,7 +23,7 @@ export const ProjectPreview = (props) => {
         <Tool />
             <h2>
             {tags.map((tag, index) => 
-                index === 0 ? tag : " ~ " + tag
+                index === 0 ? tag : " ➺ " + tag
             )}
             </h2>
             </div>
@@ -31,8 +31,8 @@ export const ProjectPreview = (props) => {
           <t>{text}</t>
         </p>
         <a>
-        <img src={require('../graphics/yellowbrush.png')} alt=""/>
-          <c>Learn more!</c>
+        <img src={require('../graphics/learnmorestroke.png')} alt=""/>
+          <c>Learn more ➺</c>
         </a>
     </div>
   </>

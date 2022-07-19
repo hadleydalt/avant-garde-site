@@ -10,7 +10,7 @@ export const Subtext = (props) => {
       <div className="subtext-inner-wrapper">
           <div className="subtext-accent" style={{background: color}} />
           <div className="subtext-text">
-              <div>{topText}</div>
+              {topText}
               <b>{bottomText}</b>
           </div>
       </div>
