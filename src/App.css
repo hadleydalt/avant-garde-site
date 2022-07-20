@@ -321,13 +321,13 @@
 
 @keyframes cat-animation {
   from {margin-left: 100vw;}
-  to {margin-left: 78vw;}
+  to {margin-left: 80vw;}
 }
 
 .cat-gif {
   position: absolute;
   margin-top: 15vh;
-  margin-left: 78vw;
+  margin-left: 80vw;
   display: flex;
   flex-direction: column;
   animation-name: cat-animation;
@@ -337,19 +337,20 @@
 
 .cat-gif-cat {
   height: 27vh;
+  width: 15vw;
 }
 
 .cat-gif-bubble {
   height: 22vh;
   width: 11.5vw;
-  margin-left: 10vw;
+  margin-left: 8vw;
 }
 
 .cat-gif t {
   font-size: 0.65vw;
   width: 8.7vw;
   margin-top: -44.5vh;
-  margin-left: 11.5vw;
+  margin-left: 9.5vw;
   text-align: center;
 }
 
