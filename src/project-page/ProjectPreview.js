@@ -17,16 +17,16 @@ export const ProjectPreview = (props) => {
           <div className="project-dotted-line" />
       </div>
       <div className="project-content">
-        <img src={require('../graphics/' + imgPath + '.png')} />
+        <img className="project-content-cover" src={require('../graphics/content-images/' + imgPath + '.png')} />
         <p>
-          <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', width: 'auto'}}>
+          <div className="project-content-wrapper">
         <Tool />
             <h2>
             {tags.map((tag, index) => 
-                index === 0 ? tag : " ◯ " + tag
+                index === 0 ? tag : "，" + tag
             )}
             </h2>
-            </div>
+          </div>
             <h1>{title}</h1>
           <t>{text}</t>
         </p>
