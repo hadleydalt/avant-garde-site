@@ -3,8 +3,15 @@ import { Arrow } from '../graphics/Arrow'
 
 export const About = () => {
   return (
+    <>
+    <div className="spacer" />
+    <div className="page-title">
+      Hi,
+      <x>I'm</x>
+      <y>Hadley</y>
+    </div>
     <div className="about">
-      <img src={require("../graphics/about me.png")} alt="" style={{height: '25vh'}} />
+      <img src={require("../graphics/about me.png")} alt="" style={{width: '40vw', height: '22vh'}} />
       <div className="about-image-container">
         <img src={require("../graphics/get in touch.png")} alt="" style={{width: '30vw'}}/>
         <tc>
@@ -27,5 +34,6 @@ export const About = () => {
         </tc>
       </div>
     </div>
+  </>
   )
 }

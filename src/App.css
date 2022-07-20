@@ -1,16 +1,26 @@
 .wrapper {
+  position: absolute;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   width: 100vw;
   height: 100vh;
+  top: 0;
+  left: 0;
+  overflow: scroll;
+}
+
+.paper-bg {
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.6;
 }
 
 .paint-bg-1 {
   position: absolute; 
   width: 70vw;
   height: 90vh;
-  opacity: 0.4; 
+  opacity: 0.57; 
   transform: rotate(-5deg); 
   margin-left: 5vw;
   margin-top: -2vh;
@@ -21,7 +31,7 @@
   position: absolute; 
   width: 70vw;
   height: 85vh;
-  opacity: 0.2;
+  opacity: 0.37;
   transform: rotate(8deg);
   margin-left: 10vw;
   margin-top: 2vh;
@@ -86,7 +96,10 @@
   justify-content: center;
   padding-top: 6px;
   text-transform: uppercase; 
-  font-size: 0.8vw;
+  font-size: 0.7vw;
+  font-weight: bold;
+  opacity: 0.8;
+  letter-spacing: -0.02vw;
 }
 
 .links-container {
@@ -178,7 +191,7 @@
 }
 
 .project-content h1 {
-  font-size: 30px;
+  font-size: 1.8vw;
   font-weight: normal;
   font-family:'Courier New', Courier, monospace;
   letter-spacing: -0.15vw;
@@ -186,7 +199,7 @@
 
 .project-content h2 {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 14px;
   margin-left: 5px;
   text-transform: uppercase;
   letter-spacing: 0.01vw;
@@ -222,7 +235,7 @@
 }
 
 .spacer {
-  margin-top: 10vh;
+  margin-top: 7vh;
 }
 
 .folder-link {
@@ -233,7 +246,8 @@
 
 .about {
   display: flex;
-  width: 100vw;
+  width: 80vw;
+  align-self: flex-start;
   height: 60vh;
   flex-direction: row;
   justify-content: space-evenly;
@@ -259,6 +273,7 @@
   margin-left: 1vw;
   font-size: 1.3vw;
   font-weight: bold;
+  color: white;
 }
 
 .about-image-container tc {
@@ -278,4 +293,69 @@
   color: white;
   text-transform: uppercase;
 }
+
+.page-title {
+  font-size: 2vw; 
+  line-height: 4vw; 
+  align-self: flex-start;
+  margin-left: 5vw; 
+  width: 77vw;
+}
+
+.page-title x {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  opacity: 0.4;
+  letter-spacing: -0.1vw;
+  margin-left: -0.2vw;
+}
+
+.page-title y {
+  font-family:'Courier New', Courier, monospace;
+  letter-spacing: -0.2vw;
+  margin-left: -0.3vw;
+  font-size: 2.3vw;
+  opacity: 0.8;
+}
+
+@keyframes cat-animation {
+  from {margin-left: 100vw;}
+  to {margin-left: 78vw;}
+}
+
+.cat-gif {
+  position: absolute;
+  margin-top: 15vh;
+  margin-left: 78vw;
+  display: flex;
+  flex-direction: column;
+  animation-name: cat-animation;
+  animation-duration: 6s;
+  animation-timing-function: ease-in;
+}
+
+.cat-gif-cat {
+  height: 27vh;
+}
+
+.cat-gif-bubble {
+  height: 22vh;
+  width: 11.5vw;
+  margin-left: 10vw;
+}
+
+.cat-gif t {
+  font-size: 0.65vw;
+  width: 8.7vw;
+  margin-top: -44.5vh;
+  margin-left: 11.5vw;
+  text-align: center;
+}
+
+.cat-gif t2 {
+  font-size: 0.5vw;
+}
+
+
 

@@ -8,6 +8,12 @@ export const ProjectPreviews = () => {
 
   return (
     <>
+    <div className="spacer" />
+    <div className="page-title">
+      Projects
+      <x>Projects</x>
+      <y>Projects</y>
+    </div>
         <ProjectPreview imgPath="paint2" tags={tags} text={text} title="Title" />
         <ProjectPreview imgPath="paint2" tags={tags} text={text} title="Title" />
         <ProjectPreview imgPath="paint2" tags={tags} text={text} title="Title" />
